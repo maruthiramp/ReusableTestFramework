@@ -1,0 +1,475 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="5" failed="1" ignored="0" total="8" passed="2">
+  <reporter-output>
+    <line>
+      <![CDATA[Click to see Screenshot]]>
+    </line>
+    <line>
+      <![CDATA[<a target="_blank" href=F:\SeleniumWorkspace\ReusableFramework\screenshots\Tue_Aug_28_12_40_48_IST_2018.png>Screenshot</a>]]>
+    </line>
+    <line>
+      <![CDATA[<br>]]>
+    </line>
+    <line>
+      <![CDATA[<a target="_blank" href=F:\SeleniumWorkspace\ReusableFramework\screenshots\Tue_Aug_28_12_40_48_IST_2018.png><img src=F:\SeleniumWorkspace\ReusableFramework\screenshots\Tue_Aug_28_12_40_48_IST_2018.png height=200 width=200></img></a>]]>
+    </line>
+  </reporter-output>
+  <suite name="Suite" duration-ms="165642" started-at="2018-08-28T07:08:36Z" finished-at="2018-08-28T07:11:22Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="165642" started-at="2018-08-28T07:08:36Z" finished-at="2018-08-28T07:11:22Z">
+      <class name="com.techaspect.framework.testcases.HomePageTest">
+        <test-method status="PASS" signature="beforeSuite()[pri:0, instance:com.techaspect.framework.testcases.HomePageTest@37883b97]" name="beforeSuite" is-config="true" duration-ms="203" started-at="2018-08-28T12:38:36Z" finished-at="2018-08-28T12:38:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeSuite -->
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:com.techaspect.framework.testcases.HomePageTest@37883b97]" name="beforeTest" is-config="true" duration-ms="0" started-at="2018-08-28T12:38:36Z" finished-at="2018-08-28T12:38:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:com.techaspect.framework.testcases.HomePageTest@37883b97]" name="beforeClass" is-config="true" duration-ms="4" started-at="2018-08-28T12:38:36Z" finished-at="2018-08-28T12:38:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.techaspect.framework.testcases.HomePageTest@37883b97]" name="beforeMethod" is-config="true" duration-ms="6347" started-at="2018-08-28T12:38:36Z" finished-at="2018-08-28T12:38:43Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.techaspect.framework.testcases.HomePageTest.testLogo(java.util.Hashtable)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="testLogo(java.util.Hashtable)[pri:0, instance:com.techaspect.framework.testcases.HomePageTest@37883b97]" name="testLogo" duration-ms="5660" started-at="2018-08-28T12:38:43Z" data-provider="dpone" finished-at="2018-08-28T12:38:48Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{Runmode=Y, expected url=https://www.homecentre.in/in/en/}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLogo -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.techaspect.framework.testcases.HomePageTest@37883b97]" name="afterMethod" is-config="true" duration-ms="1982" started-at="2018-08-28T12:38:48Z" finished-at="2018-08-28T12:38:50Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testLogo status=SUCCESS method=HomePageTest.testLogo(java.util.Hashtable)[pri:0, instance:com.techaspect.framework.testcases.HomePageTest@37883b97] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.techaspect.framework.testcases.HomePageTest@37883b97]" name="beforeMethod" is-config="true" duration-ms="3778" started-at="2018-08-28T12:38:50Z" finished-at="2018-08-28T12:38:54Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.techaspect.framework.testcases.HomePageTest.testSocialShareLinks(java.util.Hashtable)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="SKIP" signature="testSocialShareLinks(java.util.Hashtable)[pri:0, instance:com.techaspect.framework.testcases.HomePageTest@37883b97]" name="testSocialShareLinks" duration-ms="51951" started-at="2018-08-28T12:38:54Z" data-provider="dpone" finished-at="2018-08-28T12:39:46Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{socialmediatype=Facebook, Runmode=Y, expected title=Home Centre India - Home}]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [Home Centre India - Home] but found [Home Centre India - Home | Facebook]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [Home Centre India - Home] but found [Home Centre India - Home | Facebook]
+	at org.testng.Assert.fail(Assert.java:93)
+	at org.testng.Assert.failNotEquals(Assert.java:512)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:134)
+	at org.testng.Assert.assertEquals(Assert.java:115)
+	at org.testng.Assert.assertEquals(Assert.java:189)
+	at org.testng.Assert.assertEquals(Assert.java:199)
+	at com.techaspect.framework.testcases.HomePageTest.testSocialShareLinks(HomePageTest.java:38)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:661)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSocialShareLinks -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.techaspect.framework.testcases.HomePageTest@37883b97]" name="afterMethod" is-config="true" duration-ms="1072" started-at="2018-08-28T12:39:46Z" finished-at="2018-08-28T12:39:47Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testSocialShareLinks status=SKIP method=HomePageTest.testSocialShareLinks(java.util.Hashtable)[pri:0, instance:com.techaspect.framework.testcases.HomePageTest@37883b97] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.techaspect.framework.testcases.HomePageTest@37883b97]" name="beforeMethod" is-config="true" duration-ms="3945" started-at="2018-08-28T12:39:47Z" finished-at="2018-08-28T12:39:51Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.techaspect.framework.testcases.HomePageTest.testSocialShareLinks(java.util.Hashtable)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="FAIL" signature="testSocialShareLinks(java.util.Hashtable)[pri:0, instance:com.techaspect.framework.testcases.HomePageTest@37883b97]" name="testSocialShareLinks" duration-ms="56718" started-at="2018-08-28T12:39:51Z" data-provider="dpone" finished-at="2018-08-28T12:40:48Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{socialmediatype=Facebook, Runmode=Y, expected title=Home Centre India - Home}]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [Home Centre India - Home] but found [Home Centre India - Home | Facebook]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [Home Centre India - Home] but found [Home Centre India - Home | Facebook]
+	at org.testng.Assert.fail(Assert.java:93)
+	at org.testng.Assert.failNotEquals(Assert.java:512)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:134)
+	at org.testng.Assert.assertEquals(Assert.java:115)
+	at org.testng.Assert.assertEquals(Assert.java:189)
+	at org.testng.Assert.assertEquals(Assert.java:199)
+	at com.techaspect.framework.testcases.HomePageTest.testSocialShareLinks(HomePageTest.java:38)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:661)
+	at org.testng.internal.Invoker.retryFailed(Invoker.java:1014)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1215)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+            <line>
+              <![CDATA[Click to see Screenshot]]>
+            </line>
+            <line>
+              <![CDATA[<a target="_blank" href=F:\SeleniumWorkspace\ReusableFramework\screenshots\Tue_Aug_28_12_40_48_IST_2018.png>Screenshot</a>]]>
+            </line>
+            <line>
+              <![CDATA[<br>]]>
+            </line>
+            <line>
+              <![CDATA[<a target="_blank" href=F:\SeleniumWorkspace\ReusableFramework\screenshots\Tue_Aug_28_12_40_48_IST_2018.png><img src=F:\SeleniumWorkspace\ReusableFramework\screenshots\Tue_Aug_28_12_40_48_IST_2018.png height=200 width=200></img></a>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testSocialShareLinks -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.techaspect.framework.testcases.HomePageTest@37883b97]" name="afterMethod" is-config="true" duration-ms="1214" started-at="2018-08-28T12:40:49Z" finished-at="2018-08-28T12:40:50Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testSocialShareLinks status=FAILURE method=HomePageTest.testSocialShareLinks(java.util.Hashtable)[pri:0, instance:com.techaspect.framework.testcases.HomePageTest@37883b97] output=Click to see Screenshot]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.techaspect.framework.testcases.HomePageTest@37883b97]" name="beforeMethod" is-config="true" duration-ms="3954" started-at="2018-08-28T12:40:50Z" finished-at="2018-08-28T12:40:54Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.techaspect.framework.testcases.HomePageTest.testSocialShareLinks(java.util.Hashtable)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="testSocialShareLinks(java.util.Hashtable)[pri:0, instance:com.techaspect.framework.testcases.HomePageTest@37883b97]" name="testSocialShareLinks" duration-ms="8602" started-at="2018-08-28T12:40:54Z" data-provider="dpone" finished-at="2018-08-28T12:41:02Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{socialmediatype=Twitter, Runmode=Y, expected title=Home Centre India (@HomeCentreIndia) | Twitter}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSocialShareLinks -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.techaspect.framework.testcases.HomePageTest@37883b97]" name="afterMethod" is-config="true" duration-ms="920" started-at="2018-08-28T12:41:02Z" finished-at="2018-08-28T12:41:03Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testSocialShareLinks status=SUCCESS method=HomePageTest.testSocialShareLinks(java.util.Hashtable)[pri:0, instance:com.techaspect.framework.testcases.HomePageTest@37883b97] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.techaspect.framework.testcases.HomePageTest@37883b97]" name="beforeMethod" is-config="true" duration-ms="3817" started-at="2018-08-28T12:41:03Z" finished-at="2018-08-28T12:41:07Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.techaspect.framework.testcases.HomePageTest.testSocialShareLinks(java.util.Hashtable)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="SKIP" signature="testSocialShareLinks(java.util.Hashtable)[pri:0, instance:com.techaspect.framework.testcases.HomePageTest@37883b97]" name="testSocialShareLinks" duration-ms="0" started-at="2018-08-28T12:41:07Z" data-provider="dpone" finished-at="2018-08-28T12:41:07Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{socialmediatype=LinkedIn, Runmode=N, expected title=LinkedIn: Log In or Sign Up}]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.testng.SkipException">
+            <message>
+              <![CDATA[RunMode is set to No for test data]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.SkipException: RunMode is set to No for test data
+	at com.techaspect.framework.testcases.HomePageTest.testSocialShareLinks(HomePageTest.java:32)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:661)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.SkipException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSocialShareLinks -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.techaspect.framework.testcases.HomePageTest@37883b97]" name="afterMethod" is-config="true" duration-ms="805" started-at="2018-08-28T12:41:07Z" finished-at="2018-08-28T12:41:08Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testSocialShareLinks status=SKIP method=HomePageTest.testSocialShareLinks(java.util.Hashtable)[pri:0, instance:com.techaspect.framework.testcases.HomePageTest@37883b97] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.techaspect.framework.testcases.HomePageTest@37883b97]" name="beforeMethod" is-config="true" duration-ms="3875" started-at="2018-08-28T12:41:08Z" finished-at="2018-08-28T12:41:12Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.techaspect.framework.testcases.HomePageTest.testSocialShareLinks(java.util.Hashtable)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="SKIP" signature="testSocialShareLinks(java.util.Hashtable)[pri:0, instance:com.techaspect.framework.testcases.HomePageTest@37883b97]" name="testSocialShareLinks" duration-ms="4" started-at="2018-08-28T12:41:12Z" data-provider="dpone" finished-at="2018-08-28T12:41:12Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{socialmediatype=LinkedIn, Runmode=N, expected title=LinkedIn: Log In or Sign Up}]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.testng.SkipException">
+            <message>
+              <![CDATA[RunMode is set to No for test data]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.SkipException: RunMode is set to No for test data
+	at com.techaspect.framework.testcases.HomePageTest.testSocialShareLinks(HomePageTest.java:32)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:661)
+	at org.testng.internal.Invoker.retryFailed(Invoker.java:1014)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1215)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.SkipException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSocialShareLinks -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.techaspect.framework.testcases.HomePageTest@37883b97]" name="afterMethod" is-config="true" duration-ms="785" started-at="2018-08-28T12:41:12Z" finished-at="2018-08-28T12:41:13Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testSocialShareLinks status=SKIP method=HomePageTest.testSocialShareLinks(java.util.Hashtable)[pri:0, instance:com.techaspect.framework.testcases.HomePageTest@37883b97] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.techaspect.framework.testcases.HomePageTest@37883b97]" name="beforeMethod" is-config="true" duration-ms="3905" started-at="2018-08-28T12:41:13Z" finished-at="2018-08-28T12:41:16Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.techaspect.framework.testcases.HomePageTest.testSocialShareLinks(java.util.Hashtable)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.techaspect.framework.testcases.HomePageTest@37883b97]" name="afterMethod" is-config="true" duration-ms="733" started-at="2018-08-28T12:41:16Z" finished-at="2018-08-28T12:41:17Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testSocialShareLinks status=SKIP method=HomePageTest.testSocialShareLinks(java.util.Hashtable)[pri:0, instance:com.techaspect.framework.testcases.HomePageTest@37883b97] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="SKIP" signature="testSocialShareLinks(java.util.Hashtable)[pri:0, instance:com.techaspect.framework.testcases.HomePageTest@37883b97]" name="testSocialShareLinks" duration-ms="0" started-at="2018-08-28T12:41:16Z" data-provider="dpone" finished-at="2018-08-28T12:41:16Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{socialmediatype=Instagram, Runmode=N, expected title=Home Centre India (@homecentreindia) • Instagram photos and videos}]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.testng.SkipException">
+            <message>
+              <![CDATA[RunMode is set to No for test data]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.SkipException: RunMode is set to No for test data
+	at com.techaspect.framework.testcases.HomePageTest.testSocialShareLinks(HomePageTest.java:32)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:661)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.SkipException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSocialShareLinks -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.techaspect.framework.testcases.HomePageTest@37883b97]" name="beforeMethod" is-config="true" duration-ms="3766" started-at="2018-08-28T12:41:17Z" finished-at="2018-08-28T12:41:21Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.techaspect.framework.testcases.HomePageTest.testSocialShareLinks(java.util.Hashtable)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="SKIP" signature="testSocialShareLinks(java.util.Hashtable)[pri:0, instance:com.techaspect.framework.testcases.HomePageTest@37883b97]" name="testSocialShareLinks" duration-ms="0" started-at="2018-08-28T12:41:21Z" data-provider="dpone" finished-at="2018-08-28T12:41:21Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{socialmediatype=Instagram, Runmode=N, expected title=Home Centre India (@homecentreindia) • Instagram photos and videos}]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.testng.SkipException">
+            <message>
+              <![CDATA[RunMode is set to No for test data]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.SkipException: RunMode is set to No for test data
+	at com.techaspect.framework.testcases.HomePageTest.testSocialShareLinks(HomePageTest.java:32)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:661)
+	at org.testng.internal.Invoker.retryFailed(Invoker.java:1014)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1215)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.SkipException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSocialShareLinks -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.techaspect.framework.testcases.HomePageTest@37883b97]" name="afterMethod" is-config="true" duration-ms="795" started-at="2018-08-28T12:41:21Z" finished-at="2018-08-28T12:41:22Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testSocialShareLinks status=SKIP method=HomePageTest.testSocialShareLinks(java.util.Hashtable)[pri:0, instance:com.techaspect.framework.testcases.HomePageTest@37883b97] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:com.techaspect.framework.testcases.HomePageTest@37883b97]" name="afterClass" is-config="true" duration-ms="0" started-at="2018-08-28T12:41:22Z" finished-at="2018-08-28T12:41:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:com.techaspect.framework.testcases.HomePageTest@37883b97]" name="afterTest" is-config="true" duration-ms="0" started-at="2018-08-28T12:41:22Z" finished-at="2018-08-28T12:41:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+        <test-method status="PASS" signature="afterSuite()[pri:0, instance:com.techaspect.framework.testcases.HomePageTest@37883b97]" name="afterSuite" is-config="true" duration-ms="0" started-at="2018-08-28T12:41:22Z" finished-at="2018-08-28T12:41:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterSuite -->
+      </class> <!-- com.techaspect.framework.testcases.HomePageTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

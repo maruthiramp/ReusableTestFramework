@@ -1,0 +1,15 @@
+com\techaspect\framework\setup\TestSetUp.class
+com\techaspect\framework\pageactions\LandingPageActions.class
+com\techaspect\framework\testutils\TestUtils.class
+com\techaspect\framework\pageactions\HomePageActions.class
+com\techaspect\framework\testutils\DriverFactory.class
+com\techaspect\framework\pageobjects\BasePage.class
+com\techaspect\framework\testutils\ExtentManager.class
+com\techaspect\framework\pageobjects\HomePage.class
+com\techaspect\framework\pageobjects\BasePage$1.class
+com\techaspect\framework\customlisteners\AnnotationTransformer.class
+com\techaspect\framework\testutils\DriverManager.class
+com\techaspect\framework\testutils\ExcelReader.class
+com\techaspect\framework\customlisteners\CustomeListeners.class
+com\techaspect\framework\testutils\Constants.class
+com\techaspect\framework\customlisteners\RetryListeners.class
