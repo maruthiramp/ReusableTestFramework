@@ -21,8 +21,8 @@ public class HomePage extends BasePage{
 		
 	@Override
 	public ExpectedCondition getPageLoadCondition() {
-		return ExpectedConditions.visibilityOf(DriverManager.getDriver().findElement(By.className(Constants.OR_FOOTER_DIV)));
-		//return ExpectedConditions.visibilityOf(DriverManager.getDriver().findElement(By.className(Constants.OR_FOOTER_DIV2)));
+		//return ExpectedConditions.visibilityOf(DriverManager.getDriver().findElement(By.className(Constants.OR_FOOTER_DIV)));
+		return ExpectedConditions.visibilityOf(DriverManager.getDriver().findElement(By.className(Constants.OR_FOOTER_DIV2)));
 	}
 	
 	public String getHomePageTitle() {
@@ -34,19 +34,19 @@ public class HomePage extends BasePage{
 		return (HomePage) openPage(HomePage.class);
 	}
 	public String getSocialShareTitle(String social){
-		WebElement footerDiv= DriverManager.getDriver().findElement(By.id(Constants.OR_FOOTER_DIV)); 
-		//WebElement footerDiv= DriverManager.getDriver().findElement(By.cssSelector(Constants.OR_FOOTER_DIV2)); 
+		//WebElement footerDiv= DriverManager.getDriver().findElement(By.id(Constants.OR_FOOTER_DIV)); 
+		WebElement footerDiv= DriverManager.getDriver().findElement(By.cssSelector(Constants.OR_FOOTER_DIV2)); 
 		switch (social) {
 		case "Facebook":
-			footerDiv.findElement(By.xpath(Constants.OR_ICON_FACEBOOK)).click();
-			//footerDiv.findElement(By.xpath(Constants.OR_ICON_FACEBOOK2)).click();
+			//footerDiv.findElement(By.xpath(Constants.OR_ICON_FACEBOOK)).click();
+			footerDiv.findElement(By.xpath(Constants.OR_ICON_FACEBOOK2)).click();
 			appLogs.debug("Clicked on Facebook icon");
 			switchHandle();
 			socialPageloadWait(80);
 			break;
 		case "Twitter":
-			footerDiv.findElement(By.xpath(Constants.OR_ICON_TWITTER)).click();
-			//footerDiv.findElement(By.xpath(Constants.OR_ICON_TWITTER2)).click();
+			//footerDiv.findElement(By.xpath(Constants.OR_ICON_TWITTER)).click();
+			footerDiv.findElement(By.xpath(Constants.OR_ICON_TWITTER2)).click();
 			appLogs.debug("Clicked on Twitter icon");
 			switchHandle();
 			socialPageloadWait(80);
@@ -72,8 +72,8 @@ public class HomePage extends BasePage{
 	}
 	
 	public String getLogoUrl(){
-		click(findElement(By.xpath(Constants.OR_LOGO)), "LOGO");
-		//click(findElement(By.xpath(Constants.OR_LOGO2)), "LOGO");
+		//click(findElement(By.xpath(Constants.OR_LOGO)), "LOGO");
+		click(findElement(By.xpath(Constants.OR_LOGO2)), "LOGO");
 		pageloadWait(20);
 		return DriverManager.getDriver().getCurrentUrl();
 	}
