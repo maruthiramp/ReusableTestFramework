@@ -1,0 +1,24 @@
+30/08/2018 21:06:52 devpinoyLogger Total rows are : 10
+30/08/2018 21:06:52 devpinoyLogger Test case starts from row num: 1
+30/08/2018 21:06:52 devpinoyLogger Total rows of data are : 1
+30/08/2018 21:06:52 devpinoyLogger Total cols are : 2
+30/08/2018 21:06:52 devpinoyLogger Starting exection of test case: testLogo
+30/08/2018 21:07:02 devpinoyLogger Navigating to BaseURL
+30/08/2018 21:07:05 devpinoyLogger Total rows are : 10
+30/08/2018 21:07:05 devpinoyLogger Test case starts from row num: 5
+30/08/2018 21:07:05 devpinoyLogger Total rows of data are : 4
+30/08/2018 21:07:05 devpinoyLogger Total cols are : 3
+30/08/2018 21:07:05 devpinoyLogger Starting exection of test case: testSocialShareLinks
+30/08/2018 21:07:11 devpinoyLogger Navigating to BaseURL
+30/08/2018 21:07:11 devpinoyLogger Clicked on Facebook icon
+30/08/2018 21:08:30 devpinoyLogger TestNG-test=Test-1 Error in testSocialShareLinks with status 4 Retry attempt # 1
+30/08/2018 21:08:31 devpinoyLogger Total rows are : 10
+30/08/2018 21:08:31 devpinoyLogger Test case starts from row num: 5
+30/08/2018 21:08:31 devpinoyLogger Total rows of data are : 4
+30/08/2018 21:08:31 devpinoyLogger Total cols are : 3
+30/08/2018 21:08:31 devpinoyLogger Starting exection of test case: testSocialShareLinks
+30/08/2018 21:08:38 devpinoyLogger Navigating to BaseURL
+30/08/2018 21:08:39 devpinoyLogger Clicked on Facebook icon
+30/08/2018 21:11:21 devpinoyLogger Starting exection of test case: testSocialShareLinks
+30/08/2018 21:11:29 devpinoyLogger Navigating to BaseURL
+30/08/2018 21:11:30 devpinoyLogger Clicked on Twitter icon
